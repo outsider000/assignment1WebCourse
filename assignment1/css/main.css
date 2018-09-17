@@ -1,0 +1,6 @@
+/*Group 1234 */
+h1,p{text-align: center;}
+.bookName{ font-family: 'Courier New', Courier, monospace; font-size: large;}
+.bookInfo{ font: italic; }
+@media only screen and (max-width: 480px)  
+{img {display: none; }

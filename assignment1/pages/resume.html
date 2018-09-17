@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yuzhao Zhou</title>
+<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+<style>
+a:link,a:visited{  text-decoration:none;}a:hover{  text-decoration:underline;}
+</style>
+</head>
+<body>
+<h1>Yuzhao Zhou</h1>
+<svg width="3000" height="3"  version="1.1">
+<line x1="0" y1="0" x2="3000" y2="0"
+style="stroke:rgb(99,99,99);stroke-width:2"/>
+</svg>
+<p>
+  <a href="http://www.pitt.edu/~yuz155/"style="color:#FBC02D;">Home</a>&nbsp;&nbsp;
+  <a href="http://www.pitt.edu/~yuz155/resume.html"style="color:#212121">Resume</a>&nbsp;&nbsp;
+  <a href="http://www.pitt.edu/~yuz155/contact.html"style="color:#FBC02D;">Contact</a>&nbsp;&nbsp;
+  <a href="http://www.pitt.edu/~yuz155/home_cn.html"style="color:#FBC02D;">中文</a>&nbsp;&nbsp;
+</p>
+<p>
+  <a href="resumedraft.pdf" download>Click me to download resume</a>
+</p>
+<center><button id="show" type="button" onclick="myFunction()">View Online</button>
+<object id="viewer" data="resumedraft.pdf" type="application/pdf"width="750px" height="750px" style="display:none" >
+      <embed src="resumedraft.pdf" type="application/pdf">
+          <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://www.pitt.edu/~yuz155/resumedraft.pdf">Download PDF</a>.</p>
+      </embed>
+</object></center>
+<script>
+function myFunction() {
+    document.getElementById("viewer").style.display= "inline ";
+    document.getElementById("show").style.display= "none ";
+}
+</script>
+</body>
+</html>
